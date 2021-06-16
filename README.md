@@ -19,7 +19,7 @@
 - View 객체에 대해 설명하시오.
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
 - UIWindow 객체의 역할은 무엇인가?
-- UINavigationController 의 역할이 무엇인지 설명하시오.
+- V UINavigationController 의 역할이 무엇인지 설명하시오.
 - 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
 - 앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
@@ -31,7 +31,7 @@
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
-- hugging, resistance에 대해서 설명하시오.
+- V hugging, resistance에 대해서 설명하시오.
 - Intrinsic Size에 대해서 설명하시오.
 - 스토리보드를 이용했을때의 장단점을 설명하시오.
 - Safearea에 대해서 설명하시오.
@@ -44,7 +44,7 @@
 - Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - KVO 동작 방식에 대해 설명하시오.
-- Delegates와 Notification 방식의 차이점에 대해 설명하시오.
+- V Delegates와 Notification 방식의 차이점에 대해 설명하시오.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
 - 프로토콜이란 무엇인지 설명하시오.
@@ -56,7 +56,7 @@
 - defer란 무엇인지 설명하시오.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
 ## ARC
-- ARC란 무엇인지 설명하시오.
+- V ARC란 무엇인지 설명하시오.
 - Retain Count 방식에 대해 설명하시오.
 - Strong 과 Weak 참조 방식에 대해 설명하시오.
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
