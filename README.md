@@ -1,25 +1,3 @@
-# iOSInterviewquestions
-iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
-
-면접때 받은 질문이나 공부한내용들
-
-수정해야할 내용이나 추가해야할 내용은 언제든지 PR날려주세요!
-
-```
-답이 적혀있지 않은 이유는 해당 내용을 암기식으로 외우기 보다 찾아보고 공부하면서 습득 하시는게 좋기때문입니다.
-해당내용을 찾아보면서 관련된 내용들 까지 같이 공부하시면서 해당 내용을 본인의 것으로 얻으시기 바랍니다.
-```
-
-모두의 힘을 모아봅시다 👯‍♀️👯‍♂️
-감사합니다:)
-
-# Required
-아래 내용들은 최대한 많이 공부해놓는것이 좋습니다 📝
-
-+ 면접시기가 wwdc이후 (7월~11월)이라면 해당년도 wwdc세션들을 봐 두시면 매우매우매우 좋습니다.
-
-[Apple All Videos](https://developer.apple.com/videos/all-videos/)
-
 ## iOS
 - Bounds 와 Frame 의 차이점을 설명하시오.
 - 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.
@@ -51,7 +29,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - App의 Not running, Inactive, Active, Background, Suspended에 대해 설명하시오.
 - App thinning에 대해서 설명하시오.
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
-
 ## Autolayout
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
 - hugging, resistance에 대해서 설명하시오.
@@ -59,7 +36,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 스토리보드를 이용했을때의 장단점을 설명하시오.
 - Safearea에 대해서 설명하시오.
 - Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
-
 ## Swift
 - Optional 이란 무엇인지 설명하시오.
 - Fast Enumeration 이란 무엇인지 설명하시오. 
@@ -79,7 +55,6 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - 접근 제어자의 종류엔 어떤게 있는지 설명하시오
 - defer란 무엇인지 설명하시오.
 - defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
-
 ## ARC
 - ARC란 무엇인지 설명하시오.
 - Retain Count 방식에 대해 설명하시오.
@@ -92,17 +67,13 @@ iOS개발자들에게 필요한 자료들을 정리하고 있는 중입니다.
 - Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. 
 - 다음 코드를 실행하면 어떤 일이 발생할까 추측해서 설명하시오.
 Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
-
 ## Functional Programming
 - 함수형 프로그래밍이 무엇인지 설명하시오.
 - 고차 함수가 무엇인지 설명하시오.
 - Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
-
 # Optional
 아래부터는 추가로 공부를 하면 좋을 내용들입니다.
-
 Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입이나 주니어기준으로 필수라고 여겨지지않기에 옵셔널에 추가하였습니다.
-
 ## Objective-C
 - Mutable 객체과 Immutable 객체는 어떤것이 있는지 예를 들고, 차이점을 설명하시오.
 - dynamic과 property 의미와 차이를 설명하시오.
@@ -116,7 +87,6 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - Category 방식에 대해 설명하시오.
 - Objective-C 에서 Protocol 이란 무엇인지 설명하시오.
 - Objective-C++ 방식이 무엇인지 설명하고, 어떤 경우 사용해야 하는지 설명하시오.
-
 ## Advanced
 - method swizzling이 무엇이고, 어떨 때 사용하는지 설명하시오.
 - NSCoder 클래스는 어떤 상황에서 어떻게 써야 하는지 설명하시오.
@@ -132,11 +102,9 @@ Objective-c나 rx는 회사, 팀마다 사용하는곳이 차이가있고 신입
 - JSON 데이터를 처리하는 방식과 파서, 객체 변환 방식에 대해 설명하시오.
 - 웹 서버와 HTTP 연결을 사용해서 데이터를 주거나 받으려면 사용해야 하는 클래스와 동작을 설명하시오.
 - Protocol에서는 왜 var만 되는지 설명하시요.
-
 ## Architecture
 - MVVM, MVC, Ribs, VIP 등 자신이 알고있는 아키텍쳐를 설명하시오.
 - 의존성 주입에 대하여 설명하시오.
-
 ## Rx
 - Reactive Programming이 무엇인지 설명하시오.
 - RxSwift에서 Hot Observable과 Cold Observable의 차이를 설명하시오.
