@@ -8,17 +8,17 @@
 - NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
 - GCD API 동작 방식과 필요성에 대해 설명하시오.
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
-- iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
+- **2주차** iOS 앱을 만들고, User Interface를 구성하는 데 필수적인 프레임워크 이름은 무엇인가?
 - Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.
 - Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.
 - NotificationCenter 동작 방식과 활용 방안에 대해 설명하시오.
 - UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?
 - TableView를 동작 방식과 화면에 Cell을 출력하기 위해 최소한 구현해야 하는 DataSource 메서드를 설명하시오.
-- 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
+- **2주차** 하나의 View Controller 코드에서 여러 TableView Controller 역할을 해야 할 경우 어떻게 구분해서 구현해야 하는지 설명하시오.
 - App Bundle의 구조와 역할에 대해 설명하시오.
 - View 객체에 대해 설명하시오.
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
-- UIWindow 객체의 역할은 무엇인가?
+- **2주차** UIWindow 객체의 역할은 무엇인가?
 - V UINavigationController 의 역할이 무엇인지 설명하시오.
 - 모든 View Controller 객체의 상위 클래스는 무엇이고 그 역할은 무엇인가?
 - 앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?
@@ -33,7 +33,7 @@
 - 오토레이아웃을 코드로 작성하는 방법은 무엇인가? (3가지)
 - V hugging, resistance에 대해서 설명하시오.
 - Intrinsic Size에 대해서 설명하시오.
-- 스토리보드를 이용했을때의 장단점을 설명하시오.
+- **2주차** 스토리보드를 이용했을때의 장단점을 설명하시오.
 - Safearea에 대해서 설명하시오.
 - Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 ## Swift
@@ -44,7 +44,7 @@
 - Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - KVO 동작 방식에 대해 설명하시오.
-- V Delegates와 Notification 방식의 차이점에 대해 설명하시오.
+- **1주차** Delegates와 Notification 방식의 차이점에 대해 설명하시오.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - MVC 구조에 대해 블록 그림을 그리고, 각 역할과 흐름을 설명하시오.
 - 프로토콜이란 무엇인지 설명하시오.
@@ -58,7 +58,7 @@
 ## ARC
 - V ARC란 무엇인지 설명하시오.
 - Retain Count 방식에 대해 설명하시오.
-- Strong 과 Weak 참조 방식에 대해 설명하시오.
+- **2주차** Strong 과 Weak 참조 방식에 대해 설명하시오.
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
 - retain 과 assign 의 차이점을 설명하시오.
 - 순환 참조에 대하여 설명하시오.
