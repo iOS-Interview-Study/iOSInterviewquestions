@@ -2,7 +2,6 @@
 - Bounds 와 Frame 의 차이점을 설명하시오.
 - 실제 디바이스가 없을 경우 개발 환경에서 할 수 있는 것과 없는 것을 설명하시오.
 - 앱이 foreground에 있을 때와 background에 있을 때 어떤 제약사항이 있나요?
-- scene delegate에 대해 설명하시오.
 - NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
 - GCD API 동작 방식과 필요성에 대해 설명하시오.
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
@@ -15,7 +14,6 @@
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
 - 앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?
 - UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가?
-- 앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?
 - App thinning에 대해서 설명하시오.
 - Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
 ## Autolayout
@@ -28,7 +26,6 @@
 - Fast Enumeration 이란 무엇인지 설명하시오. 
 - Struct 가 무엇이고 어떻게 사용하는지 설명하시오.
 - instance 메서드와 class 메서드의 차이점을 설명하시오.
-- Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - Singleton 패턴을 활용하는 경우를 예를 들어 설명하시오.
 - KVO 동작 방식에 대해 설명하시오.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
@@ -47,12 +44,8 @@
 - 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.
 - 특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.
 - Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. 
-- 다음 코드를 실행하면 어떤 일이 발생할까 추측해서 설명하시오.
-Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 ## Functional Programming
 - 고차 함수가 무엇인지 설명하시오.
-- Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.
-
 
 >
 > # Optional
@@ -143,3 +136,10 @@ Ball *ball = [[[[Ball alloc] init] autorelease] autorelease];
 | 5    |   앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?  |   제임스  |
 | 5    | App thinning에 대해서 설명하시오. |   라이언  |
 | 5    |      멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.    |  코지  |
+
+| 주차 | 질문                                                    | 발표자 |
+|------|-----------------------------------------------------------|--------|
+| 6    |   scene delegate에 대해 설명하시오.   |       |
+| 6    |   앱의 콘텐츠나 데이터 자체를 저장/보관하는 특별한 객체를 무엇이라고 하는가?  |    |
+| 6    | Delegate 패턴을 활용하는 경우를 예를 들어 설명하시오. |    |
+| 6    |  Swift Standard Library의 map, filter, reduce, compactMap, flatMap에 대하여 설명하시오.  |    |
