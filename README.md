@@ -9,9 +9,6 @@
 - UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?
 - View 객체에 대해 설명하시오.
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
-- 앱이 시작할 때 main.c 에 있는 UIApplicationMain 함수에 의해서 생성되는 객체는 무엇인가?
-- App thinning에 대해서 설명하시오.
-- Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.
 ## Autolayout
 - Intrinsic Size에 대해서 설명하시오.
 - Safearea에 대해서 설명하시오.
@@ -27,13 +24,10 @@
 - Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오.
 - mutating 키워드에 대해 설명하시오.
 - Extension에 대해 설명하시오.
-- defer란 무엇인지 설명하시오.
-- defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오.
 ## ARC
 - Retain Count 방식에 대해 설명하시오.
 - ARC 대신 Manual Reference Count 방식으로 구현할 때 꼭 사용해야 하는 메서드들을 쓰고 역할을 설명하시오.
 - retain 과 assign 의 차이점을 설명하시오.
-- 순환 참조에 대하여 설명하시오.
 - 특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.
 - Autorelease Pool을 사용해야 하는 상황을 두 가지 이상 예로 들어 설명하시오. 
 
@@ -97,3 +91,10 @@
 | 8    | UIApplication 객체의 컨트롤러 역할은 어디에 구현해야 하는가? |    |
 | 8    | KVO 동작 방식에 대해 설명하시오. |    |
 | 8    | 강한 순환 참조 (Strong Reference Cycle) 는 어떤 경우에 발생하는지 설명하시오.  |    |
+
+| 주차 | 질문                                                    | 발표자 |
+|------|-----------------------------------------------------------|--------|
+| 9    | Global DispatchQueue 의 Qos 에는 어떤 종류가 있는지, 각각 어떤 의미인지 설명하시오.     |   |
+| 9    | defer란 무엇인지 설명하시오. |    |
+| 9    | defer가 호출되는 순서는 어떻게 되고, defer가 호출되지 않는 경우를 설명하시오. |    |
+| 9    | 순환 참조에 대하여 설명하시오.  |    |
