@@ -1,22 +1,18 @@
 ## iOS
 - NSOperationQueue 와 GCD Queue 의 차이점을 설명하시오.
 - 자신만의 Custom View를 만들려면 어떻게 해야하는지 설명하시오.
-- Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오.
 - Delegate란 무언인가 설명하고, retain 되는지 안되는지 그 이유를 함께 설명하시오.
-- UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?
 - View 객체에 대해 설명하시오.
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
 ## Autolayout
 - Intrinsic Size에 대해서 설명하시오.
 - Safearea에 대해서 설명하시오.
-- Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.
 ## Swift
 - Optional 이란 무엇인지 설명하시오.
 - Fast Enumeration 이란 무엇인지 설명하시오. 
 - instance 메서드와 class 메서드의 차이점을 설명하시오.
 - 멀티 쓰레드로 동작하는 앱을 작성하고 싶을 때 고려할 수 있는 방식들을 설명하시오.
 - mutating 키워드에 대해 설명하시오.
-- Extension에 대해 설명하시오.
 ## ARC
 - retain 과 assign 의 차이점을 설명하시오.
 - 특정 객체를 autorelease 하기 위해 필요한 사항과 과정을 설명하시오.
@@ -103,3 +99,10 @@
 | 11    | GCD API 동작 방식과 필요성에 대해 설명하시오. | 페즈 |
 | 11    | Hashable이 무엇이고, Equatable을 왜 상속해야 하는지 설명하시오. | 라이언 |
 | 11    | Struct 가 무엇이고 어떻게 사용하는지 설명하시오.  | 제임스 |
+
+| 주차 | 질문                                                    | 발표자 |
+|------|-----------------------------------------------------------|--------|
+| 12    | UIKit 클래스들을 다룰 때 꼭 처리해야하는 애플리케이션 쓰레드 이름은 무엇인가?     |     |
+| 12    | Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오. |    |
+| 12    | Extension에 대해 설명하시오. |     |
+| 12    | Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.  |     |
