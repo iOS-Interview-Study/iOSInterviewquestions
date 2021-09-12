@@ -6,7 +6,6 @@
 - UIView 에서 Layer 객체는 무엇이고 어떤 역할을 담당하는지 설명하시오.
 ## Autolayout
 - Intrinsic Size에 대해서 설명하시오.
-- Safearea에 대해서 설명하시오.
 ## Swift
 - Optional 이란 무엇인지 설명하시오.
 - Fast Enumeration 이란 무엇인지 설명하시오. 
@@ -106,3 +105,11 @@
 | 12    | Foundation Kit은 무엇이고 포함되어 있는 클래스들은 어떤 것이 있는지 설명하시오. |    |
 | 12    | Extension에 대해 설명하시오. |     |
 | 12    | Left Constraint 와 Leading Constraint 의 차이점을 설명하시오.  |     |
+
+| 주차 | 질문                                                    | 발표자 |
+|------|-----------------------------------------------------------|--------|
+| 13    | Storyboard interface builder의 컴파일 과정이 어떻게 이루어지는지.|     |
+| 13    | nib과 xib의 차이점. |    |
+| 13    | multipart/form data를 써야하는 이유. |     |
+| 13    | Safearea에 대해서 설명하시오.  |     |
+
